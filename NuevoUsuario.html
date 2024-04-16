@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registración de Nuevo Usuario</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <div>
+    <form action="http://127.0.0.1:5500/formularios/Formulario.html" method="get">
+        <legend>Nuevo Usuario</legend>
+        <section>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Nombre" required>
+            <br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="Apellido" id="apellido" placeholder="Apellido" required>
+            <br><br>
+            <label for="dni">DNI:</label>
+            <input type="datetime" name="dni" id="dni" placeholder="DNI" required>
+            <br><br>
+            <label for="correo electronico:">Correo Electronico:</label>
+            <input type="email" name="correo electronico" id="correo electronico" placeholder="Correo Electronico" required>
+            <br><br>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" minlength="4" maxlength="8" required>
+            <br><br>
+                <input type="submit" name="Enviar" id="enviar">
+                <br><br>
+        </section>
+    </form>
+    </div>
+</body>
+</html>

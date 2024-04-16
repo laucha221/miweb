@@ -1,0 +1,38 @@
+input[type=text], [type=datetime], [type=password], [type=email] {
+    border: 2px solid red;
+  }
+label{
+    font-weight: 600;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+}
+form{
+    margin-left: 30%;
+    margin-right: 40%;
+    margin-top: 2%;
+    background-color:aliceblue;
+    border: black solid 2px;
+}
+legend{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+section{
+    text-align: center;
+}
+button[type=submit]{
+    background-color: blue;
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: brown;
+}
+button:hover{
+    color: brown    ;
+}
